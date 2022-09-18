@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Login-CSS/stylelog.css">
+    <link rel="stylesheet" href="cadastro.html">
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="../Login-JS/logsys.js">
+    <script src="logsys.js"></script>
+    <title>Login</title>
+</head>
+<body>
+    <section class="area-login">
+        <div class="login">
+            <div>
+                <img src="../Login-CSS/logo_print.png" alt="logo">
+                <h2 class="title-log">Login</h2>
+            </div>
+            <form action="index.html">
+                <input class="usuario1" type="email" name="nome" placeholder="Digite seu email" autofocus>
+                <input class="senha1" type="password" name="senha" placeholder="Digite sua senha">
+                <button onclick="entrar()" class="button" type="submit" value="entrar"><b>Login</b></button>
+            </form>
+            <p>Não possui um usuario e senha? <a href="cadastro.html">Cadastre-se</a></p>
+        </div>
+    </section>
+</body>
+</html>
